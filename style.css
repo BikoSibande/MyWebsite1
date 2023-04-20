@@ -1,0 +1,437 @@
+body{
+    font-family:sans-serif;
+    background: url(Images/MojiBackground.jpg) no-repeat;
+    background-size: cover;
+}
+
+.menu{
+    width: 100%;
+    height: 100px;
+    background:rgba(202, 202, 202, 0.353);
+}
+
+.logo{
+    float: left;
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 80px;
+    margin: 10px 50px;
+}
+
+#logo{
+    position: relative;
+    width: 50px;
+    margin: 25px -50px;
+
+}
+
+nav ul{
+    width: 600px;
+    margin: -80px 400px;
+    background: rgba(255, 0, 0, 0.322);
+    padding: 15px 10px;
+    border-radius: 50px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 15px;
+    margin-top: 5px;
+
+
+}
+nav ul li a{
+    font-size: 20px;
+    color: rgb(4, 4, 4);
+    text-decoration: none;
+    margin: 1px -5px 5px 10px;
+    
+}
+
+a.active{
+    background: red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 50px;
+}
+
+
+
+h1{
+    font-family: sans-serif;
+    margin: 30px 100px;
+}
+h2{
+    font-family: sans-serif;
+    margin: 30px 100px;
+}
+h3{
+    font-size: small;
+    font-family: sans-serif;
+    margin: 30px 100px;
+}
+section p{
+    font-size: small;
+}
+
+p{
+    font-family: sans-serif;
+    margin: 30px 100px;
+}
+
+a{
+    font-weight: bold;
+}
+
+#collapsible-head{
+    display: none;
+}
+
+.container{
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+}
+
+
+
+.collapsible{
+    Width: 60%;
+    max-height: auto;
+    overflow: hidden;   
+}
+
+
+
+
+.collapsible label{
+    position: relative;
+    background: rgba(255, 0, 0, 0.26);
+    display: flex;
+    margin: 10px 0;
+    cursor: pointer;
+    padding: 15px 10px;
+    border-radius: 50px; 
+}
+
+#collapsible-head-button{
+    display: none;
+}
+
+
+.collapsible-text{
+
+    max-height: 1px;
+    overflow:scroll;
+    border-radius: 4px;
+    background: rgb(255, 255, 255);
+    line-height: 1.4;
+    transition: all 0.3s ease;
+}
+
+
+
+.collapsible input:checked ~ .collapsible-text{
+    position: relative;
+    max-height: 300px;
+    padding-bottom: 25px;
+    top: 0;
+}
+
+
+#Blogpost-heading{
+
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+
+.container2{
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+}
+.collapsible2{
+    Width: 60%;
+    max-height: auto;
+    overflow: hidden;   
+}
+
+.collapsible2 label{
+    position: relative;
+    background: rgba(255, 0, 0, 0.26);
+    display: flex;
+    margin: 10px 0;
+    cursor: pointer;
+    padding: 15px 10px;
+    border-radius: 50px; 
+}
+
+#collapsible-head-button2{
+    display: none;
+}
+
+.collapsible-text2{
+
+    max-height: 1px;
+    overflow:scroll;
+    border-radius: 4px;
+    background: rgb(255, 255, 255);
+    line-height: 1.4;
+    transition: all 0.3s ease;
+}
+.collapsible2 input:checked ~ .collapsible-text2{
+    position: relative;
+    max-height: 300px;
+    padding-bottom: 25px;
+    top: 0;
+}
+
+#Blogpost-heading2{
+
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+#collapsible-head3{
+    display: none;
+}
+
+.container3{
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+}
+.collapsible3{
+    Width: 60%;
+    max-height: auto;
+    overflow: hidden;   
+}
+
+
+.collapsible3 label{
+    position: relative;
+    background: rgba(255, 0, 0, 0.26);
+    display: flex;
+    margin: 10px 0;
+    cursor: pointer;
+    padding: 15px 10px;
+    border-radius: 50px; 
+}
+#collapsible-head-button3{
+    display: none;
+}
+
+.collapsible-text3{
+
+    max-height: 1px;
+    overflow:scroll;
+    border-radius: 4px;
+    background: rgb(255, 255, 255);
+    line-height: 1.4;
+    transition: all 0.3s ease;
+}
+.collapsible3 input:checked ~ .collapsible-text3{
+    position: relative;
+    max-height: 300px;
+    padding-bottom: 25px;
+    top: 0;
+}
+
+#Blogpost-heading3{
+
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+#collapsible-head4{
+    display: none;
+}
+
+.container4{
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+}
+.collapsible4{
+    Width: 60%;
+    max-height: auto;
+    overflow: hidden;   
+}
+
+
+.collapsible4 label{
+    position: relative;
+    background: rgba(255, 0, 0, 0.26);
+    display: flex;
+    margin: 10px 0;
+    cursor: pointer;
+    padding: 15px 10px;
+    border-radius: 50px; 
+}
+#collapsible-head-button4{
+    display: none;
+}
+
+.collapsible-text4{
+
+    max-height: 1px;
+    overflow:scroll;
+    border-radius: 4px;
+    background: rgb(255, 255, 255);
+    line-height: 1.4;
+    transition: all 0.3s ease;
+}
+.collapsible4 input:checked ~ .collapsible-text4{
+    position: relative;
+    max-height: 300px;
+    padding-bottom: 25px;
+    top: 0;
+}
+
+#Blogpost-heading4{
+
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+
+#collapsible-head7{
+    display: none;
+}
+
+.container7{
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+}
+.collapsible7{
+    Width: 60%;
+    max-height: auto;
+    overflow: hidden;   
+}
+
+
+.collapsible7 label{
+    position: relative;
+    background: rgba(255, 0, 0, 0.26);
+    display: flex;
+    margin: 10px 0;
+    cursor: pointer;
+    padding: 15px 10px;
+    border-radius: 50px; 
+}
+
+#collapsible-head-button7{
+    display: none;
+}
+
+.collapsible-text7{
+
+    max-height: 1px;
+    overflow:scroll;
+    border-radius: 4px;
+    background: rgb(255, 255, 255);
+    line-height: 1.4;
+    transition: all 0.3s ease;
+}
+.collapsible7 input:checked ~ .collapsible-text7{
+    position: relative;
+    max-height: 300px;
+    padding-bottom: 25px;
+    top: 0;
+}
+
+#Blogpost-heading7{
+
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+
+#collapsible-headW{
+    display: none;
+}
+
+.containerW{
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+}
+.collapsibleW{
+    Width: 60%;
+    max-height: auto;
+    overflow: hidden;   
+}
+
+
+.collapsibleW label{
+    position: relative;
+    background: rgba(255, 0, 0, 0.26);
+    display: flex;
+    margin: 10px 0;
+    cursor: pointer;
+    padding: 15px 10px;
+    border-radius: 50px; 
+}
+
+#collapsible-head-buttonW{
+    display: none;
+}
+
+.collapsible-textW{
+    
+    max-height: 300px;
+    overflow:scroll;
+    border-radius: 4px;
+    background: rgb(255, 255, 255);
+    line-height: 1.4;
+    transition: all 0.3s ease;
+}
+
+.collapsible-textW header{
+    font-weight: bold;
+    width: 500px;
+    margin: 10px 50px;
+}
+
+.collapsible-textW img{
+    width: 500px;
+    margin: 10px 50px;
+}
+.collapsible7 input:checked ~ .collapsible-textW{
+    position: relative;
+    max-height: 300px;
+    padding-bottom: 25px;
+    top: 0;
+}
+
+#Blogpost-headingW{
+
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+
+
+
+
+
+
+
+
+
